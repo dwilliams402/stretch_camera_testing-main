@@ -26,3 +26,5 @@ def move_camera():
     while not rospy.is_shutdown():
         rospy.loginfo(theta)
         pub.publish(theta)
+
+        # testing
